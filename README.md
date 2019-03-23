@@ -7,6 +7,9 @@ endpoints:
 GET /bus/routes
 GET /bus/route/{route_number}
 GET /bus/stop/{stop_number}
+GET /bus/getStopDataByRouteAndDirection/{route_number}/{direction}   
+
+*{direction} has to be 'I' or 'O' (inbound, outbound) - case-insensitive.
 
 GET /luas/stops
 GET /luas/stop/{stop_id}
